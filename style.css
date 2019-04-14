@@ -71,7 +71,7 @@ ul.top {
     font-size: 90px;
     font-weight: 400;
     margin: 0px 0px 0px 40px;
-    padding: 50px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
 }
 
 .slogan {
@@ -121,15 +121,15 @@ h3 {
 }
 
 .popisek1 { 
-    margin: 40px 25px 50px 40px;
+    margin: 40px 25px 40px 40px;
 }
 
 .popisek2 {
-    margin: 40px 25px 50px 25px;
+    margin: 40px 25px 40px 25px;
  }
 
  .popisek3 { 
-     margin: 40px 40px 50px 25px;
+     margin: 40px 40px 40px 25px;
  }
 
 
