@@ -31,3 +31,115 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+.navigation li {
+    display: inline-block;
+    margin-right: 7%;
+    margin-top: 20px;
+}
+
+ul.top {
+    padding: 0 0 0 0;
+    margin-left: 40px;
+    height: 45px;
+}
+
+.char {
+    font-weight: 300;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.body {
+    color: white;
+    background-image: url(images/pozadi.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    position: relative;
+}
+
+.ruka {
+    position: absolute;
+    right: 0;
+    bottom: -8px;
+}
+
+.title {
+    font-size: 90px;
+    font-weight: 400;
+    margin: 0px 0px 0px 40px;
+    padding: 50px 0px 0px 0px;
+}
+
+.slogan {
+    font-weight: 100;
+    font-size: 36px;
+    margin: 40px 0px 50px 40px;
+    line-height: 40px;
+ }
+
+ .stahnout, .info {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px;
+    border: 1px solid white;
+    font-size: 20px;
+}
+
+ .stahnout {
+     background: #48418e;
+     margin: 0px 0px 25px 40px;
+ }
+
+ .info {
+     margin: 0px 0px 25px 20px;
+ }
+
+.popisek {
+    display: flex;
+    flex-direction: row;
+}
+
+.popisek1, .popisek2, .popisek3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    color:#48418e;
+    font-weight: 700;
+}
+.popisek p {
+    text-align: center;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.popisek1 { 
+    margin: 40px 25px 50px 40px;
+}
+
+.popisek2 {
+    margin: 40px 25px 50px 25px;
+ }
+
+ .popisek3 { 
+     margin: 40px 40px 50px 25px;
+ }
+
+
+
+ .footer { 
+     background: #48418e;
+     width: 100%;
+     text-align: center;
+     font-weight: 200;
+     font-size: 14px;
+     color: white;
+     padding: 0.5px 0px;
+ }
